@@ -1,0 +1,54 @@
+.header {
+    background-color: var(--gray-800);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 4rem;
+    font-size: 1.3rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #7A2CAF;
+}
+.header img {
+    height: 3em;
+}
+.menus {
+    display: flex;
+    gap: 30px;
+}
+
+.menus a{
+    text-decoration: none;
+    color: #e3e3e3;
+    font-weight: bold;
+}
+
+.menus a:hover {
+    color:#7A2CAF;
+    transition: 1s;
+}
+
+.contato {
+    display: flex;
+    gap: 8px;
+}
+
+.contato button {
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7A2CAF;
+    border: 1px solid #7A2CAF;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.contato button:hover {
+    transition : 1000ms;
+    background-color: #8163f8;
+    border: 1px solid #8163f8;
+}
+
