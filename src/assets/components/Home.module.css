@@ -1,7 +1,13 @@
-section {
-    margin: 3.75rem 4.875rem;
+.home {
+    margin-top: 140px;
+    padding: 11.75rem 2.875rem;    
     display: flex;
     justify-content: space-between;
+    background-image: url('../imgs/bgprincipal.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .textoPrincipal {
     font-size: 4rem;
@@ -13,9 +19,22 @@ section {
 
 .textoSecundario {
     width: 400px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.textoSecundario .globo {
+    margin: 30px 100px
+}
+.textoSecundario .details {
+    position: absolute;
+    top: 235px;
+    right: 30px;
 }
 .textoSecundario p{
     font-size: 1rem;
     line-height: 1.8;
-    margin-top: 4.875rem;
+    margin-top: 2.875rem;
 }

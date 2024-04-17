@@ -5,3 +5,20 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    width: 8px
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0)
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.1098039216);
+    border-radius: 20px
+}
