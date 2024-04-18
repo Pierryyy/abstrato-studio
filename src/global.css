@@ -22,3 +22,7 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,.1098039216);
     border-radius: 20px
 }
+a {
+  text-decoration: none;
+  color: #d597ff;  
+}

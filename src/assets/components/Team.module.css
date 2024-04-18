@@ -1,6 +1,6 @@
-.about {
+.team {
     margin-top: 120px;
-    padding: 2.75rem 2.875rem;
+    padding: 0 2.875rem 2.75rem;
 }
 
 .title {
@@ -20,25 +20,42 @@
 
 .content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 2rem;
     padding: 3rem 2.875rem 0;
 }
 .text {
-    width: 50%;
+    width: 40%;
 }
 .content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2;
 }
-.aboutMoldura {
-    border-radius: 16px;
+.teamMoldura {
+    width: 40%;
     overflow: hidden;
-    aspect-ratio: 16/9;
+    border-radius: 16px;
+    aspect-ratio: 16/13;
     box-shadow: rgba(0,0,0,.1) 0px 1px 2px 0px;
     border: 1px solid rgba(255,255,255,.1098039216);
 }
-.aboutMoldura img {
+.teamMoldura img {
     width: 100%;
     height: auto;
+}
+.aboutTeam {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.aboutTeam p {
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.textProfile {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
 }
